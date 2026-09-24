@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme tanpa ActionBar -->
+    <style name="Base.Theme.MyCourseDevina"
+        parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <!-- Base application theme dengan ActionBar -->
+    <style name="Base.Theme.MyCourseDevina.WithActionBar"
+        parent="Theme.Material3.DayNight">
+    </style>
+
+    <!-- Theme utama tanpa ActionBar -->
+    <style name="Theme.MyCourseDevina"
+        parent="Base.Theme.MyCourseDevina" />
+
+    <!-- Theme dengan ActionBar -->
+    <style name="Theme.MyCourseDevina.WithActionBar"
+        parent="Base.Theme.MyCourseDevina.WithActionBar" />
+
+</resources>
